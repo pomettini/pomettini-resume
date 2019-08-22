@@ -2,12 +2,16 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 2em !important;
   font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #profile,
 #employment,
 #education,
-#certifications {
+#certifications,
+#gdpr {
   color: black;
   padding: 40px;
 }
@@ -19,7 +23,6 @@ h2,
 #skills,
 #languages {
   color: black;
-  background-color: #EEEEEE;
   padding: 40px;
 }
 
@@ -83,12 +86,14 @@ h4 {
 }
 
 #left-col {
+  background-color: #EEEEEE;
   width: 38%;
   float: left;
   display: block;
 }
 
 #right-col {
+  background-color: #FFFFFF;
   width: 62%;
   float: right;
   display: block;
@@ -105,5 +110,10 @@ p.title {
 
 p.period {
   color: #9A9A9A;
+}
+
+p.summary,
+#gdpr p {
+  line-height: 1.6em;
 }
 /*# sourceMappingURL=resume.css.map */

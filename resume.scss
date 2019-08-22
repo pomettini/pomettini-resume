@@ -7,12 +7,14 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 2em !important;
     font-weight: 300;
+    display: flex;
 }
 
 #profile,
 #employment,
 #education,
-#certifications {
+#certifications,
+#gdpr {
     color: $font-color;
     padding: $default-padding * 2;
 }
@@ -24,7 +26,6 @@ h2,
 #skills,
 #languages {
     color: $font-color;
-    background-color: $sidebar-color;
     padding: $default-padding * 2;
 }
 
@@ -88,12 +89,14 @@ h4 {
 }
 
 #left-col {
+    background-color: $sidebar-color;
     width: 38%;
     float: left;
     display: block;
 }
 
 #right-col {
+    background-color: #FFFFFF;
     width: 62%;
     float: right;
     display: block;
@@ -110,4 +113,9 @@ p.title {
 
 p.period {
     color: $font-color-second;
+}
+
+p.summary,
+#gdpr p {
+    line-height: 1.6em;
 }
