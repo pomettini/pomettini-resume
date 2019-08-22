@@ -1,0 +1,113 @@
+$font-color: black;
+$font-color-second: #9A9A9A;
+$sidebar-color: #EEEEEE;
+$default-padding: 20px;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em !important;
+    font-weight: 300;
+}
+
+#profile,
+#employment,
+#education,
+#certifications {
+    color: $font-color;
+    padding: $default-padding * 2;
+}
+
+h1,
+h2,
+#details,
+#links,
+#skills,
+#languages {
+    color: $font-color;
+    background-color: $sidebar-color;
+    padding: $default-padding * 2;
+}
+
+p.title {
+    font-weight: 400;
+}
+
+#employment li:not(:last-child),
+#education li:not(:last-child) {
+    padding-bottom: $default-padding;
+}
+
+#profile,
+#employment,
+#education,
+#certifications,
+#details,
+#links,
+#skills {
+    padding-bottom: 0;
+}
+
+#skills ul:not(:last-child) {
+    padding-bottom: $default-padding;
+}
+
+.prefix {
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+}
+
+h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    padding-bottom: $default-padding / 2;
+}
+
+h2 {
+    color: $font-color-second;
+    font-size: 150%;
+    text-transform: uppercase;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-size: 125%;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: $default-padding / 2;
+    margin-bottom: $default-padding / 2;
+    border-bottom: #000 1px solid;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 100%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#left-col {
+    width: 38%;
+    float: left;
+    display: block;
+}
+
+#right-col {
+    width: 62%;
+    float: right;
+    display: block;
+}
+
+a {
+    color: $font-color-second;
+    text-decoration: none;
+}
+
+p.title {
+    text-transform: uppercase;
+}
+
+p.period {
+    color: $font-color-second;
+}

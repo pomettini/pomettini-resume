@@ -1,0 +1,109 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2em !important;
+  font-weight: 300;
+}
+
+#profile,
+#employment,
+#education,
+#certifications {
+  color: black;
+  padding: 40px;
+}
+
+h1,
+h2,
+#details,
+#links,
+#skills,
+#languages {
+  color: black;
+  background-color: #EEEEEE;
+  padding: 40px;
+}
+
+p.title {
+  font-weight: 400;
+}
+
+#employment li:not(:last-child),
+#education li:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+#profile,
+#employment,
+#education,
+#certifications,
+#details,
+#links,
+#skills {
+  padding-bottom: 0;
+}
+
+#skills ul:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.prefix {
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+}
+
+h1 {
+  font-size: 200%;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #9A9A9A;
+  font-size: 150%;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-size: 125%;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: #000 1px solid;
+  display: inline-block;
+}
+
+h4 {
+  font-size: 100%;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#left-col {
+  width: 38%;
+  float: left;
+  display: block;
+}
+
+#right-col {
+  width: 62%;
+  float: right;
+  display: block;
+}
+
+a {
+  color: #9A9A9A;
+  text-decoration: none;
+}
+
+p.title {
+  text-transform: uppercase;
+}
+
+p.period {
+  color: #9A9A9A;
+}
+/*# sourceMappingURL=resume.css.map */
