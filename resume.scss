@@ -81,7 +81,7 @@ h3 {
     text-transform: uppercase;
     padding-bottom: $default-padding / 2;
     margin-bottom: $default-padding / 2;
-    border-bottom: #000 1px solid;
+    border-bottom: $font-color 1px solid;
     display: inline-block;
 }
 
@@ -107,7 +107,8 @@ h4 {
 
 a {
     color: $font-color;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: $font-color-second 1px dashed;
 }
 
 p.title {

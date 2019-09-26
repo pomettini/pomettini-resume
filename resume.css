@@ -78,7 +78,7 @@ h3 {
   text-transform: uppercase;
   padding-bottom: 1.15vw;
   margin-bottom: 1.15vw;
-  border-bottom: #000 1px solid;
+  border-bottom: black 1px solid;
   display: inline-block;
 }
 
@@ -104,7 +104,8 @@ h4 {
 
 a {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: #9A9A9A 1px dashed;
 }
 
 p.title {
