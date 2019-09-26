@@ -103,8 +103,8 @@ h4 {
 }
 
 a {
-  color: #9A9A9A;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
 }
 
 p.title {
