@@ -7,7 +7,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
-  height: 141.428vw;
+  height: 143.309vw;
 }
 
 #profile,
@@ -91,7 +91,7 @@ h4 {
 #left-col {
   background-color: #EEEEEE;
   width: 38%;
-  height: 141.428vw;
+  height: 143.309vw;
   float: left;
   display: block;
 }
@@ -99,7 +99,7 @@ h4 {
 #right-col {
   background-color: #FFFFFF;
   width: 62%;
-  height: 141.428vw;
+  height: 143.309vw;
   float: right;
   display: block;
 }
