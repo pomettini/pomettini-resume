@@ -1,7 +1,8 @@
 $font-color: black;
 $font-color-second: #9A9A9A;
 $sidebar-color: #EEEEEE;
-$default-padding: 2.3vw;
+$default-padding: 1.9vw;
+$page-height: 141.428vw;
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -10,7 +11,7 @@ body {
     font-size: 1.28vw;
     display: flex;
     width: 100vw;
-    height: 141.428vw;
+    height: $page-height;
 }
 
 #profile,
@@ -94,6 +95,7 @@ h4 {
 #left-col {
     background-color: $sidebar-color;
     width: 38%;
+    height: $page-height;
     float: left;
     display: block;
 }
@@ -101,6 +103,7 @@ h4 {
 #right-col {
     background-color: #FFFFFF;
     width: 62%;
+    height: $page-height;
     float: right;
     display: block;
 }
