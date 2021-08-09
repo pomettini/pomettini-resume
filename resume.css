@@ -15,7 +15,7 @@ body {
 #certifications,
 #gdpr {
   color: black;
-  padding: 3.8vw;
+  padding: 4vw;
 }
 
 h1,
@@ -25,7 +25,7 @@ h2,
 #skills,
 #languages {
   color: black;
-  padding: 3.8vw;
+  padding: 4vw;
 }
 
 p.title {
@@ -34,7 +34,7 @@ p.title {
 
 #employment li:not(:last-child),
 #education li:not(:last-child) {
-  padding-bottom: 1.9vw;
+  padding-bottom: 2vw;
 }
 
 #profile,
@@ -48,7 +48,7 @@ p.title {
 }
 
 #skills ul:not(:last-child) {
-  padding-bottom: 1.9vw;
+  padding-bottom: 2vw;
 }
 
 .prefix {
@@ -60,7 +60,7 @@ p.title {
 h1 {
   font-size: 200%;
   text-transform: uppercase;
-  padding-bottom: 0.95vw;
+  padding-bottom: 1vw;
 }
 
 h2 {
@@ -75,8 +75,8 @@ h3 {
   font-size: 125%;
   font-weight: 400;
   text-transform: uppercase;
-  padding-bottom: 0.95vw;
-  margin-bottom: 0.95vw;
+  padding-bottom: 1vw;
+  margin-bottom: 1vw;
   border-bottom: black 1px solid;
   display: inline-block;
 }
